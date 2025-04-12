@@ -1,0 +1,51 @@
+header > div.head {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 240px;
+    max-width: 1280px;
+    padding-inline: 20px;
+    margin-inline: auto;
+}
+
+section.left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    
+}
+
+img.perfil {
+    border-radius: 50%;
+}
+
+div.conteudo {
+    flex-basis: 330px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+div.conteudo > h1 {
+    font-size: 30px;
+    color: var(--text-color-primary) ;
+    font: var(--font-bg);
+}
+
+div.conteudo > p {
+    padding-top: 10px;
+    width: 325px;
+    color: var(--text-color-secondary);
+}
+
+ul.lista { 
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color-secondary);
+    gap: 16px
+}
+
+li.right-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
