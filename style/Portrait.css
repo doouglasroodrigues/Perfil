@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+header > div.head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 410px;
+}
+
+section.left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+}
+
+div.conteudo > p  {
+    width: 50vw;
+}
+
+section.right {
+    display: flex;
+    align-items: flex-end;
+    height: 350px;
+}
+
+main > img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
